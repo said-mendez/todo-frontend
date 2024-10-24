@@ -1,0 +1,55 @@
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .todo-table th, .todo-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .todo-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .todo-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  .bg-red-500 {
+    background-color: #f87171;
+  }
+  
+  .bg-yellow-500 {
+    background-color: #facc15;
+  }
+  
+  .bg-green-500 {
+    background-color: #4ade80;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }

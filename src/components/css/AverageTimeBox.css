@@ -1,0 +1,27 @@
+.average-time-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .average-time-box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .average-time-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .average-time-value span {
+    display: block;
+  }
+  
+  
